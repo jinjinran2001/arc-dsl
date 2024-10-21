@@ -1,5 +1,7 @@
 from arc_types import *
 
+def apply_func(f: Callable, *args) -> Any:
+    return f(*args)
 
 def identity(
     x: Any
